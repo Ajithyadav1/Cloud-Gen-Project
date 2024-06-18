@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('Code Checkout'){
 			steps{
-				git branch: 'main', url: 'https://github.com/Cloud-Gen-DevOps-Projects/Cloud-Gen-Project.git'
+				git branch: 'main', url: 'https://github.com/Ajithyadav1/Cloud-Gen-Project.git'
 			}
 		}
 
